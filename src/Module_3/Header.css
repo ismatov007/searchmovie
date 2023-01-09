@@ -1,0 +1,13 @@
+.oxshasin{
+    padding: 0 30px; 
+}
+.content {
+    min-height: calc(100vh - 64px - 70px);
+}
+
+.movies{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px; 
+}
+
